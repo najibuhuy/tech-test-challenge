@@ -58,7 +58,29 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
-## Install RabbitMQ
+## Deployment in Kubernetes
+```bash
+$ cd .\k8s\
+$ kubectl create -f deployment.yaml
+$ kubectl create -f service.yaml
+```
+
+## Test on Local (Minikube)
+
+```bash
+$ minikube service nestjs-k8s
+```
+
+## Deployment On GKE
+- Install gcloud
+- Copy cluster connect on cloud google kubernetes cluster
+- Run those command:
+```bash
+- kubectl create -f deployment.yaml
+- kubectl create -f service.yaml
+```
+
+
 
 ## Support
 
