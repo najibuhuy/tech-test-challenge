@@ -60,7 +60,7 @@ $ yarn run test:cov
 
 ## Deployment in Kubernetes
 ```bash
-$ cd cd .\k8s\
+$ cd .\k8s\
 $ kubectl create -f deployment.yaml
 $ kubectl create -f service.yaml
 ```
